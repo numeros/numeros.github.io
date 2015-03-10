@@ -4,7 +4,7 @@
   <title><![CDATA[Some Octopress Blog]]></title>
   <link href="http://numeros.github.io/atom.xml" rel="self"/>
   <link href="http://numeros.github.io/"/>
-  <updated>2015-03-09T22:55:10-04:00</updated>
+  <updated>2015-03-10T01:04:12-04:00</updated>
   <id>http://numeros.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Another Post]]></title>
+    <link href="http://numeros.github.io/blog/2015/03/10/another-post/"/>
+    <updated>2015-03-10T00:58:39-04:00</updated>
+    <id>http://numeros.github.io/blog/2015/03/10/another-post</id>
+    <content type="html"><![CDATA[<h1>Test</h1>
+
+<p>this is some silly test to <em>test it out</em>. Most of the <strong><em>tests</em></strong> are silly nonetheless.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Some Test]]></title>
