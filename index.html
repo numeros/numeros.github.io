@@ -6,11 +6,10 @@
 <head>
   <meta charset="utf-8">
   <title>Some Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Carlos Enriquez">
 
   
-  <meta name="description" content="Test this is some silly test to test it out. Most of the tests are silly nonetheless.
-">
+  <meta name="description" content="Perhaps the biggest problem with java executables happened in GNU/Linux Debian. In https://github.com/jekyll/jekyll/issues/2327 and for many users, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +71,55 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2015/03/10/github-and-jekyll/">Github and Jekyll</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-10T02:16:23-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:16 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Perhaps the biggest problem with java executables happened in GNU/Linux Debian.</p>
+
+<p>In <a href="https://github.com/jekyll/jekyll/issues/2327">https://github.com/jekyll/jekyll/issues/2327</a> and for many users, the solution was in fact to compile and install the source code for <a href="https://nodejs.org/download/">node.js</a>.</p>
+
+<p>The aforementioned was the only option that successfully worked for me as well. Therubyracer package failed, and changing the options in the <em>_conf.yml</em> file made no difference either.</p>
+
+<p>One of the problems I also encountered while pushing the commits to github, was in fact the message:</p>
+
+<pre><code>   Updates were rejected because the tip of your current branch is behind
+   hint: its remote counterpart. Integrate the remote changes (e.g.
+   hint: 'git pull ...') before pushing again.
+</code></pre>
+
+<p>and as suggested in <a href="http://stackoverflow.com">Stackoverflow</a>,<a href="http://stackoverflow.com/a/12651399">git says local branch is behind remote branch</a> I tried the recommended approach of fixing it by:</p>
+
+<pre><code>  git push -f 
+</code></pre>
+
+<p>to no avail. So I opted to &mdash;since for one, the repository had been recently created- to delete the fairly new created repository, and create a new one afterwards.</p>
+
+<p>At least it seemed to take care of the problem.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015/03/10/another-post/">Another Post</a></h1>
     
     
@@ -91,6 +139,8 @@
   <div class="entry-content"><h1>Test</h1>
 
 <p>this is some silly test to <em>test it out</em>. Most of the <strong><em>tests</em></strong> are silly nonetheless.</p>
+
+<p>To see if utf-8 characters work, you&rsquo;d have to think of something: frío, cigüeña.</p>
 </div>
   
   
@@ -140,6 +190,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/03/10/github-and-jekyll/">Github and Jekyll</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/03/10/another-post/">Another Post</a>
       </li>
     
@@ -160,7 +214,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Your Name -
+  Copyright &copy; 2015 - Carlos Enriquez -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
